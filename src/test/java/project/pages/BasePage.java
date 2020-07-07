@@ -15,7 +15,5 @@ public abstract class BasePage {
 
     public boolean isPageLoaded(){
         return AqualityServices.getElementFactory().getLabel(this.locator, this.pageName).state().waitForDisplayed();
-
-
     }
 }

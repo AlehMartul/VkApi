@@ -1,0 +1,1 @@
+Insert value in the parameter name="password" in test suite before start.

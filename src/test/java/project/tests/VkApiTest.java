@@ -2,7 +2,7 @@ package project.tests;
 
 import aquality.selenium.browser.AqualityServices;
 import framework.utils.ReadPropertyUtil;
-import framework.utils.VkApiUtils;
+import project.utils.VkApiUtils;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -12,7 +12,7 @@ import project.pages.MainPage;
 public class VkApiTest extends BaseTest {
 
     private static final String URI = new ReadPropertyUtil(BaseTest.RESOURCES_PATH, BaseTest.VK_API_PROPERTIES)
-            .getProperty("Uri");
+            .getProperty("UriApi");
     private static final String IS_LIKED = "1";
     private String postId;
     private String commentId;
