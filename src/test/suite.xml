@@ -1,0 +1,14 @@
+<suite name="VkAPIWallPosts">
+    <test name="testPostOnTheWallVk">
+        <parameter name="userId" value="381108928"/>
+        <parameter name="login" value="autoperftester@gmail.com"/>
+        <parameter name="password" value=""/>
+        <parameter name="type" value="type=post"/>
+        <parameter name="postBody" value="qwerty"/>
+        <parameter name="editedPostBody" value="123321"/>
+        <parameter name="commentBody" value="zxcvbz"/>
+        <classes>
+            <class name="project.tests.VkApiTest"/>
+        </classes>
+    </test>
+</suite>
